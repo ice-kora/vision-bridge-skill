@@ -1,0 +1,25 @@
+{
+  "dom_page.png": {
+    "question": "页面中的提交订单按钮状态、金币数量、表格第三行第三列数值、图标数量与红点数",
+    "ground_truth": {
+      "title": "库存管理",
+      "gold": "1280",
+      "energy": "18/30",
+      "submit_button": {
+        "label": "提交订单",
+        "state": "disabled"
+      },
+      "table": {
+        "row3_col3": "2800"
+      },
+      "warning_badge": {
+        "position": "top-right",
+        "count": 1
+      },
+      "icons": {
+        "total": 5,
+        "red_dots": 2
+      }
+    }
+  }
+}
